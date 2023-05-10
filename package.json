@@ -2,16 +2,20 @@
   "name": "todo-app",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "start": "node ./build/app.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Adaobi-Chuks/ToDo-app.git"
+    "url": "git+https://github.com/Adaobi-Chuks/Post-it.git"
   },
   "keywords": [],
   "author": "",
+  "engines": {
+    "node": "^18"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Adaobi-Chuks/ToDo-app/issues"
